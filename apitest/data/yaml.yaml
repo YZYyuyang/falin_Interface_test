@@ -1,7 +1,0 @@
-path:
-  excelpath: '..\data\est.xlsx'
-database:
-  name: 'xxxx'
-Url:
-  url1: 'http://testapi.imlaw.cn/'
-  url2: 'http://testapi.imlaw.cn/core/common/message/sendSms'
