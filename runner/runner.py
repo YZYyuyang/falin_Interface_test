@@ -19,6 +19,6 @@ def AutoRun(TestCaseName):
     report_name = report_title + time.strftime('%H-%M-%S')
     runner = TestRunner(suite = discover,filename= report_name + ".html",report_dir=report_path,title='测试报告',tester='段欣',desc="华律PC站测试的报告",templates=2)
     runner.run()
-
+    print("OK")
 if __name__ == "__main__":
     AutoRun("*2.py")
